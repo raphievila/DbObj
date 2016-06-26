@@ -1,0 +1,19 @@
+{
+    "name": "raphievila/dbobj",
+    "description": "This project is a simple solution for MySQLi requests.",
+    "type": "package",
+    "require": {
+        "raphievila/xtags": "dev-master"
+    },
+    "license": "GNU 3.0",
+    "authors": [
+        {
+            "name": "Rafael Vila",
+            "email": "raphievila@hotmail.com"
+        }
+    ],
+    "psr-4": {
+        "Modules\\": "src"
+    },
+    "minimum-stability": "dev"
+}
