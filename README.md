@@ -1,5 +1,5 @@
-# DbObj
-A simple script dependant of MySQLi for easy and quick MySQL connection and requests
+# DbObj -- Do not download yet.
+A simple script dependant of MySQLi for easy and quick MySQL connection and requests. This is for individual developers wanting to use a more light easy approach for a more tedious process. Still, it is not ready to download and use yet. Transporting the code from a __'standalone'__ purpose, has been challenging, since the original code I wrote was used with one specific customer, but after 10 years using this code I noticing missing it more than often with other projects.
 
 # Setting up connection
 The file will include a section to set a private static variable which includes user, schema, password and host. This is all that needs to be set up for the class to connect.
@@ -31,3 +31,8 @@ For example:
 
         $db1 = $db->DbObj('schema1');
         $db2 = $db->DbObj('schema2');
+
+# Very Important Note:
+This object should be use only if you have access to a root none public directory not accessible publicly. Since the object makes it easy to connect with preconfigured credentials, *having it exposed can be a security debacle*.
+
+If you do not have this kind of environment on a share hosting environment __you have to secure it in anyway__, _either with .htaccess or web.config_, only allowing the system to use it.
