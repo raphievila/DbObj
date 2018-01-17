@@ -1,6 +1,7 @@
 <?php
 namespace raphievila\Connect;
 use \xTags\xTags;
+use \Utils\Utils;
 use raphievila\Directory\DirectoryTree;
 /**
  * Description of KiDbObj original dbObj by https://github.com/raphievila
