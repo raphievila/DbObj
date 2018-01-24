@@ -3,7 +3,8 @@
     "description": "This project is a simple solution for MySQLi requests.",
     "type": "package",
     "require": {
-        "raphievila/xtags": "dev-master"
+        "raphievila/xtags": "dev-master",
+        "raphievila/utils": "dev-master"
     },
     "license": "GNU 3.0",
     "authors": [

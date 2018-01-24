@@ -51,7 +51,7 @@ DEFINE('CURRENTUSER',$user);
 DEFINE('CURRENTKEY',$uaki);
 /*============================================================================*/
 
-class dbObj{
+class DbObj{
     static private $mainschema = 'MAIN SCHEMA NAME';
     static private $mainuser = 'SET USER NAME';
     static private $mainpass = 'SET PASSWORD';
